@@ -1,6 +1,6 @@
-# Sense HAT Data Web App
+# IoT Developer Demo Kit: Sense Hat Data Web App
 
-Log Sense HAT sensor data and show it in a web app
+Log Sense Hat sensor data and show it in a web app
 
 ## Requirements
 

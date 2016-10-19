@@ -1,4 +1,4 @@
-# IoT Developer Demo Kit
+# IoT Developer Demo Kit: AMQP App
 
 `Amqp_app`
 The app accessing the AMQP bus and handling the data from AMQP.

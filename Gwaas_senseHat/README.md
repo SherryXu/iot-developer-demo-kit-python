@@ -1,4 +1,4 @@
-# IoT Developer Demo Kit
+# IoT Developer Demo Kit: IoT Data Connect Sense Hat
 
 `Gwaas_senseHat`
 This IOX app gets sensehat data from Raspberry pi and posts them to the Mqtt server in the cloud.
