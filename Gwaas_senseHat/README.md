@@ -1,19 +1,22 @@
-# device-demo-kit-python
-`Gwaas_senseHat`: <br>This IOX app gets sensehat data from Raspberry pi and posts them to the Mqtt server in the cloud. <br>
+# IoT Developer Demo Kit
 
-* Iox Package Howto <br>
+`Gwaas_senseHat`
+This IOX app gets sensehat data from Raspberry pi and posts them to the Mqtt server in the cloud.
+
+* Iox Package Howto
   To packaging the app into a iox package, use 
 ```
       ./build_iox_package.sh
 ```
-  The package.tar.gz is the target file under `gwaas_sensehat_pkg`. <br> 
-  There is a package.tar.gz under `package` ready for use. <br>
-  The version information is consistent with the version information in the `package.yaml`. <br>
+  The package.tar.gz is the target file under `gwaas_sensehat_pkg`.
+  There is a package.tar.gz under `package` ready for use.
+  The version information is consistent with the version information in the `package.yaml`.
 
-* App configurations<br>
-  When the app is launched, it reads in the data in the configuration file as the input parameters.<br>
-  The configuration file is `package_config.ini`. <br>
-  The following are the descriptions of the data fields, <br>
+* App configurations
+  When the app is launched, it reads in the data in the configuration file as the input parameters.
+  The configuration file is `package_config.ini`. 
+  The following are the descriptions of the data fields
+  
 ```
   # All the configs should be automatically set by the Fog Director Portal for Gwaas
   [_cisco_mqtt_attributes]

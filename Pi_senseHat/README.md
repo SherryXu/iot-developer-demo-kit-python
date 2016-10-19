@@ -15,11 +15,12 @@ Log Sense HAT sensor data and show it in a web app
 - Sense HAT Python library
 
 ```bash
-    - git clone https://cto-github.cisco.com/IOTSP/device-demo-kit-python.git
+    - git clone https://github.com/CiscoDevNet/iot-developer-demo-kit-python.git
     - cd `Pi_SenseHat/www`
     - sudo pip install -r requirements.txt 
 ```
-Make sure the Raspberry Pi has the correct system time before any pip installation is performed.<br> 
+
+Make sure the Raspberry Pi has the correct system time before any pip installation is performed.
 Wrong system time could cause remote repo certificate authentication problems and connection error.
 
 ## Usage
@@ -32,7 +33,7 @@ The simple version can be run on a LAN, so you can view the Flask web app on any
     - `hostname -I`
 1. Run the web app):
     -  cd `Pi_SenseHat/www`
-    - `python app.py` or `python app.py -p <port>` <br>
+    - `python app.py` or `python app.py -p <port>`
    The port number is by default 5000 if not specified.
 1. Navigate to the IP address in a web browser on any device on your network (e.g. `http://192.168.1.3:5000`)
     - You should be able to see the freeboard UI in the browser
@@ -46,5 +47,6 @@ The simple version can be run on a LAN, so you can view the Flask web app on any
      magnetometer /         
      accelerometer /       
      gyroscope`         
-    -  `/message/<messages>` <br>
-      Show messages on the SenseHat screen.<br> 8 characters at most are allowed one time. Since this operation is not asyncronized, delays up to 10 seconds are expected for the response.
+    -  `/message/<messages>`
+      Show messages on the SenseHat screen.
+      8 characters at most are allowed one time. Since this operation is not asyncronized, delays up to 10 seconds are expected for the response.

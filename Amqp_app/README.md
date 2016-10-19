@@ -1,6 +1,11 @@
-# device-demo-kit-python
-`Amqp_app`:<br>The app accessing the AMQP bus and handling the data from AMQP.<br>
-Run `python main.py -h` to get the following help on the parameter settings.  <br>
+# IoT Developer Demo Kit
+
+`Amqp_app`
+The app accessing the AMQP bus and handling the data from AMQP.
+
+Run `python main.py -h` to get the following help on the parameter settings.
+
+
 ```
 AMQP client
 
